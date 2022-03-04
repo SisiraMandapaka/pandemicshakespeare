@@ -1,0 +1,51 @@
+h1 {
+    font-family: 'Buenard', serif;
+    text-align: center;
+}
+  
+h2 {
+    font-family: 'Pontano Sans', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 36px;
+    font-variant: all-petite-caps;
+}
+  
+p {
+  font-size: 20px;
+  line-height:1.8;
+}
+
+body {
+    margin: 50px;
+    margin-bottom: 10px;
+    font-family: 'Orienta', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #536fa6;
+  }
+  
+  .active {
+    background-color: #7da5f5;
+  }

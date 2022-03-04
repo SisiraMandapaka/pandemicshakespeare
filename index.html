@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Buenard:wght@700&family=Orienta&family=Pontano+Sans&display=swap');
+    </style> 
+    <link rel="stylesheet" href="default.css">
+</head>
+<body>
+    <h1>Terms Used in Annotations of "A Winter's Tale" in Relation to Annotation Categories</h1>
+    <h2 style="text-align: center;">A Pandemic Shakespeare Project</h2>
+    <p>This project takes comments from 2020-2021 and plots them in an interactive scatterplot using the <a href="https://github.com/JasonKessler/scattertext">Scattertext tool</a>, showing the most
+    common words in annotations of Shakespeare's play "A Winter's Tale" about class, gender, pandemics, race, religion, and sexuality relative to the rest of the corpus of annotations.
+    Click below to select the category of annotation you'd like to see plotted in comparison to the rest of the annotations. </a></p>
+
+    <h2>How do I interpret this graph?</h2>
+    <img src="how-to-read-chart.png" alt="Diagram explaining how to read the generated charts.">
+    <p>Essentially, the closer a point is to the top of the plot, the more frequently it was used by the category plotted on the y-axis (e.g. Class). 
+        <br>
+        The further right a point is, the more that word was used in other categories rather than the category plotted on the y-axis. 
+        <br>
+        Words frequently used in both contexts appear in the top right corner. 
+        <br>
+        If a word rarely appears in the entire corpus, it would be in the bottom left. 
+    </p>
+    <header>
+        <div class="nav">
+        <ul>
+            <li class="class"><a class=active href="Annotation-Visualization-CLASS.html" target="scatter_frame">Class</a></li>
+            <li class="gender"><a href="Annotation-Visualization-GENDER.html" target="scatter_frame">Gender</a></li>
+            <li class="pandemics"><a href="Annotation-Visualization-PANDEMICS.html" target="scatter_frame">Pandemics</a></li>
+            <li class="race"><a href="Annotation-Visualization-RACE.html" target="scatter_frame">Race</a></li>
+            <li class="religion"><a href="Annotation-Visualization-RELIGION.html" target="scatter_frame">Religion</a></li>
+            <li class="sexuality"><a href="Annotation-Visualization-SEXUALITY.html" target="scatter_frame">Sexuality</a></li>
+        </ul>
+        </div>
+    </header>
+    <iframe src="Annotation-Visualization-CLASS.html" name="scatter_frame" height="750vw" width="100%" title="Class Annotations"></iframe>
+
+</body>
+</html>
